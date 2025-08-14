@@ -1,0 +1,118 @@
+/* Main Container */
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f7f9fc;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    width: 350px;
+}
+
+/* Toggle Buttons */
+.form-toggle {
+    display: flex;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.form-toggle button {
+    flex: 1;
+    padding: 12px;
+    background-color: #f3f3f3;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 15px 15px 0 0;
+    transition: background-color 0.3s ease;
+}
+
+.form-toggle .active {
+    background-color: #b00e20;
+    color: #ffffff;
+}
+
+/* Form Elements */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: #b00e20;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Input Fields */
+.form input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: border 0.3s ease;
+}
+
+.form input:focus {
+    border-color: #b00e20;
+    outline: none;
+    box-shadow: 0 0 5px rgba(3, 52, 82, 0.2);
+}
+
+/* Submit Buttons */
+.form button {
+    padding: 12px;
+    background-color: #b00e20;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.form button:hover {
+    background-color: #b00e20;
+}
+
+/* Links */
+.form a {
+    color: #b00e20;
+    text-decoration: none;
+    margin-bottom: 15px;
+    text-align: right;
+    transition: color 0.3s ease;
+}
+
+.form a:hover {
+    color: #b00e20;
+}
+
+/* Paragraph */
+.form p {
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+}
+
+.form p a {
+    color: #b00e20;
+    font-weight: 500;
+}
+
+.form p a:hover {
+    color: #b00e20;
+    text-decoration: underline;
+}

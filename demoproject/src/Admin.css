@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+/* Login Container */
+.login-container22 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Login Form */
+.login-form22 {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Form Heading */
+.login-form22 h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+/* Input Fields */
+.login-form22 input {
+    width: 80%;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Login Button */
+.login-btn22 {
+    background-color: #d01c28;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 16px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.login-btn22:hover {
+    background-color: #b00e20;
+}
+
+/* Login Message */
+.login-message22 {
+    margin-top: 16px;
+    color: #d01c28;
+    font-weight: bold;
+}
