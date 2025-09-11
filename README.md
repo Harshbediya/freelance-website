@@ -2,10 +2,6 @@
 
 A modern and responsive **Freelancing Marketplace** website built with **React (Vite)** and **CSS** — designed to connect clients with skilled freelancers.
 
-## 🚀 Live Demo
-_The site will be available after deployment via GitHub Pages._  
-**Live link:** https://Harshbediya.github.io/freelance-website *(Once deployed)*
-
 ## ✨ Features
 - Fully responsive layout — works on desktop, tablet, and mobile  
 - Interactive sections: Home, Services, About, Portfolio, Contact  
